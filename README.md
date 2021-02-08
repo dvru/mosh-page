@@ -1,3 +1,3 @@
 # mosh-designs
 
-creating a landing page
+Creating a Landing Page - HTML & CSS
