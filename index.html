@@ -6,13 +6,9 @@
     <meta name="keywords" content="HTML, CSS" />
     <title>My Page</title>
     <style>
-      img {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 100px;
-        float: left;
-      }
+        h1 {
+            text-align: center;
+        }
       .username {
         font-weight: bold;
       }
@@ -26,18 +22,37 @@
         object-fit: cover;
         float: right;
       }
+      .titles {
+        text-align: center;
+      }
+      a {
+        justify-content: center;
+        margin: auto;
+      }
+      .photo,img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 100px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
   </head>
   <body>
-    <h2>My Page</h2>
-    <img src="imgs/mephoto.jpg" alt="photobooth pic" />
-    <a href="products/aboutme.html">My Story</a>
-    <a href="products/products.html">Products</a>
-    <a href="#section-customer-reviews">Reviews</a>
-    <a href="https://www.instagram.com/da.minimal/" target="_blank">Contact</a>
-    <a href="mailto:damvaru4@gmail.com">Email Me</a>
-    <img class="coffee" src="imgs/coffee.jpg" alt="holding a coffee mug" />
-
+        <h1>My Page</h1>
+        <div class="titles">
+        <a href="products/aboutme.html">My Story</a>
+        <a href="products/products.html">Products</a>
+        <a href="#section-customer-reviews">Reviews</a>
+        <a href="https://www.instagram.com/da.minimal/" target="_blank">Contact</a>
+        <a href="mailto:damvaru4@gmail.com">Email Me</a>
+    </div>
+    <div class="photo">
+        <img src="imgs/mephoto.jpg" alt="photobooth pic"/>
+    </div>
+    <img class="coffee" src="imgs/coffee.jpg" alt="holding a coffee mug"/>
     <h2>Welcome</h2>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, vero
