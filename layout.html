@@ -13,11 +13,6 @@
         border: 3px solid lightgray;
         position: relative;
       }
-      .box {
-        width: 5rem;
-        height: 5rem;
-      }
-
       .box-one {
         background-color: black;
       }
@@ -51,6 +46,21 @@
       .clear {
         clear: both;
       }
+
+      .container {
+        border: 3px solid lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+      }
+      .box {
+        width: 5rem;
+        height: 5rem;
+        background-color: lightpink;
+        margin: 1rem;
+      }
     </style>
   </head>
   <body>
@@ -59,11 +69,18 @@
       <div class="box box-two"></div>
       <div class="box box-three"></div>
     </div>
+
     <article class="tweet clearfix">
       <div class="avatar"></div>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, sed!
       </p>
     </article>
+
+    <div class="container">
+      <div class="box">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+    </div>
   </body>
 </html>

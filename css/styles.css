@@ -20,7 +20,9 @@ img.coffee {
   float: right;
 }
 .titles {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 a {
   justify-content: center;
