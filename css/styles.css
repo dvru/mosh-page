@@ -91,12 +91,12 @@ p::first-line {
   font-weight: bold;
 }
 ::selection {
-  background-color: hotpink;
+  background-color: yellow;
 }
 
-p {
+/* p {
   color: dodgerblue;
 }
 strong {
   color: initial;
-}
+} */
