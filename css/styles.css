@@ -93,3 +93,10 @@ p::first-line {
 ::selection {
   background-color: hotpink;
 }
+
+p {
+  color: dodgerblue;
+}
+strong {
+  color: initial;
+}
