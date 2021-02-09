@@ -83,3 +83,13 @@ a:hover,
 a:focus {
   color: black;
 }
+
+p::first-letter {
+  font-size: 140%;
+}
+p::first-line {
+  font-weight: bold;
+}
+::selection {
+  background-color: hotpink;
+}
