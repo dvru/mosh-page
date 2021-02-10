@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      .box {
+        background: gold;
+        padding: 1rem;
+      }
+      .box:nth-of-type(2) {
+        background: lightblue;
+      }
+
+      @media screen and (min-width: 600px) {
+        .container {
+          flex-direction: row;
+        }
+      }
+      @media screen and (min-width: 900px) {
+        .container {
+          flex-direction: row;
+        }
+        .box {
+          background: white;
+        }
+      }
+
+      @media print {
+        body {
+          font-size: 12pt;
+        }
+
+        .box {
+          padding: 0.5cm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ab
+          ullam provident quisquam repellendus ducimus accusamus voluptate.
+          Quisquam, quam necessitatibus!
+        </p>
+      </div>
+      <div class="box">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+          nihil doloremque, quia vero dicta modi iure officiis optio aperiam
+          sunt.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
