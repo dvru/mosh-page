@@ -1,0 +1,23 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cornflowerblue;
+    font-size: 10rem;
+}
+
+
+.nav-bar {
+    background-color: lightcyan; 
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ color:black;
+ display: inline;
+ cursor: pointer;
+ display: inline-block;
+ justify-content: space-between; 
+}
